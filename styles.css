@@ -1,16 +1,27 @@
+body {
+    background-color: rgb(68, 60, 50);
+}
+
 .container {
     display: flex;
     height: 98vh;
 }
 
 #calculator {
+    background-color: rgb(1, 250, 175);
     border: 5px solid rgb(1, 250, 175);
     margin :auto;
     padding: 3px;
+    border-radius: 5px;
 }
 
 .line button {
-    width: 35px
+    width: 35px;
+    box-shadow: black 2px 2px 2px;
+}
+
+.line button:active {
+    color : rgba(255, 255, 255, 0.507);
 }
 
 #zero {
@@ -18,8 +29,9 @@
 }
 
 .display {
-    border: 2px solid blue;
-    background-color: darkgray;
+    border: 2px solid rgba(1, 250, 175, 0.5);
+    background-color: rgb(216, 216, 216);
+    height: 50px;
 }
 .screen {
     text-align: right;
