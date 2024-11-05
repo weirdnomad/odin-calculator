@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    height: 98vh;
+}
+
+#calculator {
+    border: 5px solid rgb(1, 250, 175);
+    margin :auto;
+    padding: 3px;
+}
+
+.line button {
+    width: 35px
+}
+
+#zero {
+    width: 74px;
+}
+
+.display {
+    border: 2px solid blue;
+    background-color: darkgray;
+}
+.screen {
+    text-align: right;
+}
